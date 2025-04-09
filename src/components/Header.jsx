@@ -1,27 +1,25 @@
-import React from "react";
+import React from 'react';
+import VantaBackground from './Vanta'; // Vergeet niet de VantaBackground component te importeren
 
-const Header = () => {
+const App = () => {
   return (
-    <header className="header">
-      <nav className="header-nav">
-        <ul className="nav-list">
-          <li className="nav-item">
-            <a href="#about">About</a>
-          </li>
-          <li className="nav-item">
-            <a href="#projects">Projects</a>
-          </li>
-          <li className="nav-item">
-            <a href="#skills">Skills</a>
-          </li>
-          <li className="nav-item">
-            <a href="#socials">Socials</a>
-          </li>
-        </ul>
+    <div className="relative">
+      <VantaBackground />
+      
+      {/* Navbar */}
+      <nav>
+        <button>Home</button>
+        <button>About</button>
+        <button>Services</button>
+        <button>Contact</button>
       </nav>
-    </header>
-    
+      
+      {/* Main Content */}
+      <div className="relative z-20 text-white p-8 mt-20">
+        <h1 className="text-4xl">Frontend Developer</h1>
+      </div>
+    </div>
   );
 };
 
-export default Header;
+export default App;

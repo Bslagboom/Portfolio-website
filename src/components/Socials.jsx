@@ -11,7 +11,7 @@ const Socials = () => {
         <a href="mailto:bartslagboom@gmail.com"><SiGmail /></a>
         <a href="https://github.com/Bslagboom" target="_blank"><FaGithub /></a>
         <a href="https://www.instagram.com/bart__0187/" target="_blank"><FaInstagram /></a>
-        <a href="https://discord.gg/fmWDRW6t" target="_blank"><FaDiscord /></a>
+        <a href="https://discord.gg/vCR3nytnug" target="_blank"><FaDiscord /></a>
       </div>
     </section>
   );

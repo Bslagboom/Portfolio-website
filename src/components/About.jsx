@@ -4,7 +4,6 @@ import pfpImage from "../images/pfp.jpg";
 const About = () => {
   return (
     <section id="about" className="about">
-          <h1 className="header-title">Frontend Developer</h1>
       <h2 className="section-title">About</h2>
       <div className="about-content">
         <div className="about-text">
